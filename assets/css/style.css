@@ -1,0 +1,53 @@
+/* === GENERAL === */
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+  
+ html {
+ font-size: 100%;
+ }
+  
+ body {
+ max-width: 1440px;
+ margin: 0 auto;
+ }
+  
+ section {
+    margin: 5px;
+    height: 150px;
+    border-top: 10px solid black;
+    border-left: 10px solid black;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    margin: .5%;
+    background: red;
+    transition: width 2s ease;
+}
+
+div:hover {
+    width: 97vw;
+    transition: width 2s ease;
+}
+ /* wrapper {
+ margin: 0 auto;
+ }
+  
+ /* ====== BODY ====== */
+  
+ /* ====== HEADER ====== */
+  
+ /* ====== MAIN ====== */
+  
+ /* ====== FOOTER ====== */
+  
+ /* =========================================================================
+                            MEDIA QUERIES
+ =========================================================================*/
+  
+ 
